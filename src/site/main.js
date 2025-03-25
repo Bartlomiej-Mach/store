@@ -1,8 +1,8 @@
-import Carousel from "../components/carousel/carousel.js";
-import Scroll from "../components/scroll-manipulation/_scroll.js";
-import Bestsellers from "../components/bestsellers/bestselers.js";
-import ProductGrid from "../components/product-grid/product-grid.js";
-import Nav from "../components/navigation/nav.js";
+import Carousel from "/src/components/carousel/carousel.js";
+import Scroll from "/src/components/scroll-manipulation/_scroll.js";
+import Bestsellers from "/src/components/bestsellers/bestselers.js";
+import ProductGrid from "/src/components/product-grid/product-grid.js";
+import Nav from "/src/components/navigation/nav.js";
 
 document.addEventListener('DOMContentLoaded', () => {
 
