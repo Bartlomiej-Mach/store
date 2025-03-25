@@ -1,5 +1,4 @@
 import Carousel from "/src/components/carousel/carousel.js";
-import Scroll from "/src/components/scroll-manipulation/_scroll.js";
 import Bestsellers from "/src/components/bestsellers/bestselers.js";
 import ProductGrid from "/src/components/product-grid/product-grid.js";
 import Nav from "/src/components/navigation/nav.js";
@@ -9,10 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (document.querySelector('.carousel')) {
     const carousel = new Carousel;
     carousel.init();
-  }
-  if (document.querySelector('.home-page .hero')) {
-    const scroll = new Scroll;
-    scroll.init();
   }
   if(document.querySelector('.bestsellers')) {
     const bestsellers = new Bestsellers;
