@@ -356,7 +356,7 @@ button {
   }
 }
 .main.home-page .hero {
-  height: 100dvh;
+  height: 100svh;
   position: relative;
 }
 .main.home-page .hero .mouse-movement {
