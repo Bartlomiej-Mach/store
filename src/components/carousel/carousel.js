@@ -1,5 +1,3 @@
-import gsap from "gsap";
-
 export default class Carousel {
   domElements() {
     this.caruselsContainers = document.querySelectorAll(".carousel");
