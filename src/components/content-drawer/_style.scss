@@ -1,0 +1,116 @@
+.content-drawer {
+  display: flex;
+  align-items: stretch;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    h3 {
+      margin-top: $content-drawer-h3-margin;
+    }
+    p {
+      margin-top: $content-drawer-text-margin;
+    }
+    .button {
+      margin-top: $content-drawer-button-margin;
+    }
+  }
+
+  &.image {
+    .content-drawer__image {
+      max-width: 50%;
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  &.align-right.image {
+    flex-direction: row-reverse;
+  }
+
+  &.align-left {
+    justify-content: flex-start;
+    .content-drawer__content {
+      align-items: flex-start;
+      padding: 90px 90px 90px 50px;
+    }
+  }
+  &.align-right {
+    justify-content: flex-end;
+    .content-drawer__content {
+      align-items: flex-end;
+      padding: 90px 50px 90px 90px;
+      h2, h3, p {
+        text-align: right;
+      }
+    }
+  }
+
+  &.light-text {
+    color: $lightColor;
+  }
+  
+}
+
+
+
+@include break-point-down(tab) {
+  .content-drawer {
+    &__content {
+      h2 {
+        word-break: break-word;
+      }
+    }
+    &.align-left {
+      .content-drawer__content {
+        padding: 40px 40px 40px 20px;
+      }
+    }
+    &.align-right {
+      .content-drawer__content {
+        padding: 40px 20px 40px 40px;
+      }
+    }
+  }
+}
+
+@include break-point-down(mb) {
+  .content-drawer {
+    &__content {
+      max-width: 100%;
+      h3 {
+        margin-top: $content-drawer-h3-margin-mobile;
+      }
+      p {
+        margin-top: $content-drawer-text-margin-mobile;
+      }
+      .button {
+        margin-top: $content-drawer-button-margin-mobile;
+      }
+    }
+    &.align-left {
+      .content-drawer__content {
+        padding: 0;
+      }
+    }
+    &.align-right {
+      .content-drawer__content {
+        padding: 0;
+      }
+    }
+    &.image, &.align-right.image {
+      flex-direction: column-reverse;
+      .content-drawer__image {
+        max-width: 100%;
+        height: 345px;
+      }
+      .content-drawer__content {
+        padding: 30px 20px;
+      }
+    }
+
+  }
+}

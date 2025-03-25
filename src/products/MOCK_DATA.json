@@ -1,0 +1,500 @@
+[
+  {
+      "id": 1,
+      "product_name": "amet nunc viverra dapibus nulla suscipit ligula in",
+      "product_price": "711.90",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=101" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=102" }
+      ]
+  },
+  {
+      "id": 2,
+      "product_name": "sapien a libero nam dui proin leo odio",
+      "product_price": "322.21",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=103" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=104" }
+      ]
+  },
+  {
+      "id": 3,
+      "product_name": "luctus nec molestie sed justo pellentesque viverra",
+      "product_price": "539.51",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=105" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=106" }
+      ]
+  },
+  {
+      "id": 4,
+      "product_name": "mauris viverra diam vitae quam",
+      "product_price": "590.32",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=107" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=108" }
+      ]
+  },
+  {
+      "id": 5,
+      "product_name": "interdum eu tincidunt in leo maecenas",
+      "product_price": "210.83",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=109" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=110" }
+      ]
+  },
+  {
+      "id": 6,
+      "product_name": "curabitur gravida nisi at nibh in hac",
+      "product_price": "450.00",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=111" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=112" }
+      ]
+  },
+  {
+      "id": 7,
+      "product_name": "vestibulum ante ipsum primis in faucibus orci",
+      "product_price": "320.50",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=113" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=114" }
+      ]
+  },
+  {
+      "id": 8,
+      "product_name": "nulla tempus vivamus in felis eu",
+      "product_price": "670.45",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=115" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=116" }
+      ]
+  },
+  {
+      "id": 9,
+      "product_name": "morbi non quam nec dui luctus rutrum",
+      "product_price": "230.75",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=117" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=118" }
+      ]
+  },
+  {
+      "id": 10,
+      "product_name": "donec odio justo sollicitudin ut suscipit a",
+      "product_price": "890.00",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=119" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=120" }
+      ]
+  },
+  {
+      "id": 11,
+      "product_name": "quisque ut erat curabitur gravida nisi",
+      "product_price": "340.60",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=121" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=122" }
+      ]
+  },
+  {
+      "id": 12,
+      "product_name": "in hac habitasse platea dictumst maecenas",
+      "product_price": "560.30",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=123" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=124" }
+      ]
+  },
+  {
+      "id": 13,
+      "product_name": "tincidunt eget tempus vel pede morbi porttitor",
+      "product_price": "780.90",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=125" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=126" }
+      ]
+  },
+  {
+      "id": 14,
+      "product_name": "lacinia eget tincidunt eget tempus vel",
+      "product_price": "410.20",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=127" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=128" }
+      ]
+  },
+  {
+      "id": 15,
+      "product_name": "vestibulum ac est lacinia nisi venenatis tristique",
+      "product_price": "290.10",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=129" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=130" }
+      ]
+  },
+  {
+      "id": 16,
+      "product_name": "in hac habitasse platea dictumst aliquam",
+      "product_price": "630.40",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=131" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=132" }
+      ]
+  },
+  {
+      "id": 17,
+      "product_name": "cras mi pede malesuada in imperdiet et",
+      "product_price": "720.50",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=133" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=134" }
+      ]
+  },
+  {
+      "id": 18,
+      "product_name": "quisque porta volutpat erat quisque erat eros",
+      "product_price": "450.70",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=135" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=136" }
+      ]
+  },
+  {
+      "id": 19,
+      "product_name": "viverra diam vitae quam suspendisse potenti nullam",
+      "product_price": "390.80",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=137" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=138" }
+      ]
+  },
+  {
+      "id": 20,
+      "product_name": "in hac habitasse platea dictumst morbi",
+      "product_price": "540.60",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=139" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=140" }
+      ]
+  },
+  {
+      "id": 21,
+      "product_name": "lacinia nisi venenatis tristique fusce congue",
+      "product_price": "670.90",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=141" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=142" }
+      ]
+  },
+  {
+      "id": 22,
+      "product_name": "quisque ut erat curabitur gravida nisi",
+      "product_price": "320.40",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=143" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=144" }
+      ]
+  },
+  {
+      "id": 23,
+      "product_name": "in hac habitasse platea dictumst aliquam",
+      "product_price": "450.30",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=145" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=146" }
+      ]
+  },
+  {
+      "id": 24,
+      "product_name": "cras mi pede malesuada in imperdiet et",
+      "product_price": "780.20",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=147" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=148" }
+      ]
+  },
+  {
+      "id": 25,
+      "product_name": "quisque porta volutpat erat quisque erat eros",
+      "product_price": "560.10",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=149" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=550.webp" }
+      ]
+  },
+  {
+      "id": 26,
+      "product_name": "viverra diam vitae quam suspendisse potenti nullam",
+      "product_price": "390.50",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=151" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=152" }
+      ]
+  },
+  {
+      "id": 27,
+      "product_name": "in hac habitasse platea dictumst morbi",
+      "product_price": "540.60",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=153" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=154" }
+      ]
+  },
+  {
+      "id": 28,
+      "product_name": "lacinia nisi venenatis tristique fusce congue",
+      "product_price": "670.90",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=155" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=156" }
+      ]
+  },
+  {
+      "id": 29,
+      "product_name": "quisque ut erat curabitur gravida nisi",
+      "product_price": "320.40",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=157" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=158" }
+      ]
+  },
+  {
+      "id": 30,
+      "product_name": "in hac habitasse platea dictumst aliquam",
+      "product_price": "450.30",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=159" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=160" }
+      ]
+  },
+  {
+      "id": 31,
+      "product_name": "cras mi pede malesuada in imperdiet et",
+      "product_price": "780.20",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=161" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=162" }
+      ]
+  },
+  {
+      "id": 32,
+      "product_name": "quisque porta volutpat erat quisque erat eros",
+      "product_price": "560.10",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=163" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=164" }
+      ]
+  },
+  {
+      "id": 33,
+      "product_name": "viverra diam vitae quam suspendisse potenti nullam",
+      "product_price": "390.50",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=165" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=166" }
+      ]
+  },
+  {
+      "id": 34,
+      "product_name": "in hac habitasse platea dictumst morbi",
+      "product_price": "540.60",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=167" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=168" }
+      ]
+  },
+  {
+      "id": 35,
+      "product_name": "lacinia nisi venenatis tristique fusce congue",
+      "product_price": "670.90",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=169" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=170" }
+      ]
+  },
+  {
+      "id": 36,
+      "product_name": "quisque ut erat curabitur gravida nisi",
+      "product_price": "320.40",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=171" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=172" }
+      ]
+  },
+  {
+      "id": 37,
+      "product_name": "in hac habitasse platea dictumst aliquam",
+      "product_price": "450.30",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=173" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=174" }
+      ]
+  },
+  {
+      "id": 38,
+      "product_name": "cras mi pede malesuada in imperdiet et",
+      "product_price": "780.20",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=175" }
+      ]
+  },
+  {
+      "id": 39,
+      "product_name": "quisque porta volutpat erat quisque erat eros",
+      "product_price": "560.10",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=177" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=178" }
+      ]
+  },
+  {
+      "id": 40,
+      "product_name": "viverra diam vitae quam suspendisse potenti nullam",
+      "product_price": "390.50",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=179" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=180" }
+      ]
+  },
+  {
+      "id": 41,
+      "product_name": "in hac habitasse platea dictumst morbi",
+      "product_price": "540.60",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=181" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=182" }
+      ]
+  },
+  {
+      "id": 42,
+      "product_name": "lacinia nisi venenatis tristique fusce congue",
+      "product_price": "670.90",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=183" }
+      ]
+  },
+  {
+      "id": 43,
+      "product_name": "quisque ut erat curabitur gravida nisi",
+      "product_price": "320.40",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=185" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=186" }
+      ]
+  },
+  {
+      "id": 44,
+      "product_name": "in hac habitasse platea dictumst aliquam",
+      "product_price": "450.30",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=187" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=188" }
+      ]
+  },
+  {
+      "id": 45,
+      "product_name": "cras mi pede malesuada in imperdiet et",
+      "product_price": "780.20",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=189" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=190" }
+      ]
+  },
+  {
+      "id": 46,
+      "product_name": "quisque porta volutpat erat quisque erat eros",
+      "product_price": "560.10",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=191" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=192" }
+      ]
+  },
+  {
+      "id": 47,
+      "product_name": "viverra diam vitae quam suspendisse potenti nullam",
+      "product_price": "390.50",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=193" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=194" }
+      ]
+  },
+  {
+      "id": 48,
+      "product_name": "in hac habitasse platea dictumst morbi",
+      "product_price": "540.60",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=195" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=196" }
+      ]
+  },
+  {
+      "id": 49,
+      "product_name": "lacinia nisi venenatis tristique fusce congue",
+      "product_price": "670.90",
+      "bestseller": false,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=197" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=198" }
+      ]
+  },
+  {
+      "id": 50,
+      "product_name": "quisque ut erat curabitur gravida nisi",
+      "product_price": "320.40",
+      "bestseller": true,
+      "product_images": [
+          { "offer_image_id": 0, "offer_image": "https://picsum.photos/480/550.webp?random=199" },
+          { "offer_image_id": 1, "offer_image": "https://picsum.photos/480/550.webp?random=480" }
+      ]
+  }
+]

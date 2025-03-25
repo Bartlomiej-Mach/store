@@ -1,0 +1,76 @@
+.button {
+  border-radius: 5px;
+  padding: 18px 25px 17px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: fit-content;
+  span {
+    margin: 0 10px 0 0;
+    font-size: $buttonFontSize;
+    font-weight: $buttonFontWeight;
+  }
+  .icon {
+    width: 15px;
+    height: 15px;
+    transition: 0.7s;
+  }
+
+  &:hover {
+    .icon {
+      transform: translateX(5px);
+    }
+  }
+
+
+
+  &.primary {
+    background-color: $lightColor;
+    span{
+      color: $darkColor;
+    }
+    .icon path {
+      fill: $darkColor;
+    }
+  }
+  
+
+  &.secondary {
+    background-color: $darkColor;
+    span {
+      color: $lightColor;
+    }
+    .icon path {
+      fill: $lightColor;
+    }
+  }
+
+  &.light {
+    background-color: transparent;
+    padding: 0;
+    span {
+      color: $lightColor;
+    }
+    .icon path {
+      fill: $lightColor;
+    }
+  }
+}
+
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+
+
+@include break-point-down(mb) {
+  .button {
+    padding: 9px 10px 8px 10px;
+    span {
+      margin-right: 5px;
+    }
+  }
+}

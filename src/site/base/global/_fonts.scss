@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+$bayonFont: "Bayon", sans-serif;
+$spartanFont: "League Spartan", sans-serif;
+
+// sizes
+
+$h1FontSize: 90px;
+$h1FontSizeMobile: 70px;
+$h2FontSize: 90px;
+$h2FontSizeMobile: 70px;
+$h3FontSize: 25px;
+$h3FontSizeMobile: 18px;
+$textFontSize: 20px;
+$textFontSizeMobile: 18px;
+$buttonFontSize: 15px;
+$ribbonFontSize: 15px;
+
+$buttonFontWeight: 700;
+$h3FontWeight: 700;
+$h2FontWeight: 400;
+$textFontWeight: 400;
+
+
+$offerNameFontSize: 20px;
+$offerNameFontSizeMobile: 18px;
+$offerNameFontWeight: 700;
+$offerPriceFontSize: 15px;
+$offerPriceFontWeight: 300;
+
+
+body {
+  font-family: $spartanFont;
+}
+
+h1 {
+  font-family: $bayonFont;
+  font-size: $h1FontSize;
+  line-height: 80%;
+}
+
+h2 {
+  font-size: $h2FontSize;
+  font-family: $bayonFont;
+  font-weight: $h2FontWeight;
+  line-height: 80%;
+}
+
+h3 {
+  font-size: $h3FontSize;
+  font-weight: $h3FontWeight;
+}
+
+span,
+p {
+  font-size: $textFontSize;
+  font-weight: $textFontWeight;
+}
+
+@include break-point-down(mb) {
+  h1 {
+    font-size: $h1FontSizeMobile;
+  }
+  h2 {
+    font-size: $h2FontSizeMobile;
+  }
+  h3 {
+    font-size: $h3FontSizeMobile;
+  }
+  span,
+  p {
+    font-size: $textFontSizeMobile;
+  }
+}

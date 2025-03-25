@@ -1,0 +1,44 @@
+.container {
+  &__content-container {
+    position: relative;
+    display: flex;
+    &--video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top left; 
+      position: absolute;
+    }
+    &--content {
+      position: relative;
+    }
+  }
+}
+
+
+
+
+@include break-point-down(mb) {
+  .container {
+    &.video-bg {
+      background-color: $darkColor;
+
+      .container__content-container--content {
+        padding: 30px 20px;
+      }
+    }
+    &__content-container {
+      flex-direction: column;
+      &--video {
+        position: relative;
+        min-height: 345px;
+        object-position: center;
+      }
+      &--content {
+        h2 {
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}

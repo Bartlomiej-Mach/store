@@ -1,0 +1,19 @@
+@import './base/global/_brakepoints';
+@import './base/global/_colors';
+@import './base/global/_fonts';
+@import './base/global/_global';
+@import './base/global/_buttons';
+@import './base/global/margins';
+
+
+// componenets
+@import '../components/navigation/_syles';
+@import '../components/content-drawer/style';
+@import '../components/hero/style';
+@import '../components/carousel/home-style';
+@import '../components/bestsellers/style';
+@import '../components/offers/style';
+@import '../components/newsletter/style';
+@import '../components/containers/style';
+@import '../components/product-grid/style';
+@import '../components/footer/style';

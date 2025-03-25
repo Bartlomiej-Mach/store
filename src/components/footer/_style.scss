@@ -1,0 +1,43 @@
+.footer {
+  width: 100%;
+  background-color: $darkColor;
+  padding: 20px 0;
+  &__content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 0 40px 0;
+    gap: 15px;
+    &--item {
+      display: flex;
+      flex-direction: column;
+      a {
+        color: $lightColor;
+        &:not(:last-child) {
+          margin: 0 0 $footer-link-margin 0;
+        }
+      }
+    }
+  }
+  &__policy {
+    span {
+      color: $lightColor;
+    }
+  }
+}
+
+@include break-point-down(tab) {
+  .footer {
+    &__content-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@include break-point-down(mb) {
+  .footer {
+    &__content-container {
+      gap: 30px;
+      grid-template-columns: 1fr;
+    }
+  }
+}

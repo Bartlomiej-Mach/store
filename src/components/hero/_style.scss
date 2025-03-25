@@ -1,0 +1,42 @@
+.main.home-page {
+  .hero {
+    height: 100dvh;
+    position: relative;
+    .mouse-movement {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 40px;
+      width: 26px;
+      height: 40px;
+      border: 2px solid $lightColor;
+      display: flex;
+      justify-content: center;
+      transition: 0.5s;
+      &.hide-scroll {
+        opacity: 0;
+      }
+      &--scroll {
+        width: 4px;
+        height: 10px;
+        background-color: $lightColor;
+        border-radius: 20px;
+        transform: translateY(8px);
+        animation: infiniteSroll 1s linear infinite;
+      }
+    }
+  }
+}
+
+@keyframes infiniteSroll {
+  from {
+    transform: translateY(8px);
+  }
+  50% {
+    transform: translateY(11px);
+  }
+  to {
+    transform: translateY(8px);
+  }
+}

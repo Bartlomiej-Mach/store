@@ -1,0 +1,29 @@
+$breakpoints: (
+    mb: 630px,
+    tab: 824px,
+    lg: 1440px,
+);
+
+
+@mixin break-point-down($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (max-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+
+.content-container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  @include break-point-down(mb) {
+      padding: 0 15px;
+  }
+
+  &.no-padding {
+    padding: 0;
+  }
+}

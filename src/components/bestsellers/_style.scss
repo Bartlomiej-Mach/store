@@ -1,0 +1,13 @@
+.bestsellers {
+  width: 100%;
+}
+
+@include break-point-down(tab) {
+  .bestsellers {
+    .offer-grid {
+      &__item:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+}
