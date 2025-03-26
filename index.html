@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Store</title>
+    <meta name="description" content="description here">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" href="src/site/styles.min.css" />
@@ -12,13 +13,13 @@
     <header class="header">
       <div class="content-container">
         <nav class="nav">
-          <button class="hamburger-menu">
+          <button aria-label="hamburger menu" class="hamburger-menu">
             <div></div>
             <div></div>
             <div></div>
           </button>
           <div class="quick-menu">
-            <button id="nav-search" class="quick-menu__item">
+            <button aria-label="Search in shop" id="nav-search" class="quick-menu__item">
               <svg
                 viewBox="0 0 22 22"
                 fill="none"
@@ -37,7 +38,7 @@
                 </defs>
               </svg>
             </button>
-            <a href="#" id="nav-buscet" class="quick-menu__item">
+            <a aria-label="Open buscet" href="#" id="nav-buscet" class="quick-menu__item">
               <svg
                 viewBox="0 0 22 22"
                 fill="none"
@@ -56,7 +57,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="#" id="nav-user-profile" class="quick-menu__item">
+            <a aria-label="Your Profile" href="#" id="nav-user-profile" class="quick-menu__item">
               <svg
                 viewBox="0 0 22 22"
                 fill="none"
